@@ -30,5 +30,6 @@ def get_api():
     return jsonify(data)
 
 @app.route('/hi')
-@app.route('/hell')
+@app.route('/hello')
 def hi () :
+    return " สวัสดี " 
